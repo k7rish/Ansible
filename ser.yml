@@ -10,4 +10,4 @@ spec:
     protocol: TCP
   selector:
     app: mywebsite
-  type: LoadBalancer
+  type: NodePort
