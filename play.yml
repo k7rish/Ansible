@@ -7,11 +7,11 @@
   tasks:
   - name: Deploy pod Service
     shell: |
-      #aws eks update-kubeconfig --name Ansible_Cluster
+      aws eks update-kubeconfig --name Ansible
       #kubectl delete pod mywebsite-pod
       #kubectl delete svc mywebsite-svc
-      #kubectl apply -f pod.yml
-      #kubectl apply -f ser.yml
-      apt-get update -y
-      apt install nginx -y
+      kubectl apply -f pod.yml
+      kubectl apply -f ser.yml
+      #apt-get update -y
+      #pt install nginx -y
      
