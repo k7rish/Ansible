@@ -12,6 +12,6 @@
       #kubectl delete svc mywebsite-svc
       #kubectl apply -f pod.yml
       #kubectl apply -f ser.yml
-      apt-get update
-      apt install nginx
+      apt-get update -y
+      apt install nginx -y
      
